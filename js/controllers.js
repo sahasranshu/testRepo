@@ -4,6 +4,8 @@ function RouteCtrl($route) {
 
     var temp = "Anshu";
 
+    var temp2 =  "HimaNSHU";
+
     $route.when('/wines', {template:'tpl/welcome.html'});
 
     $route.when('/wines/:wineId', {template:'tpl/wine-details.html', controller:WineDetailCtrl});
